@@ -1,0 +1,3 @@
+/home/quill/CLionProjects/Lily++/cmake-build-debug/cpr-download/CMakeFiles/rebuild_cache.dir
+/home/quill/CLionProjects/Lily++/cmake-build-debug/cpr-download/CMakeFiles/edit_cache.dir
+/home/quill/CLionProjects/Lily++/cmake-build-debug/cpr-download/CMakeFiles/cpr-download.dir

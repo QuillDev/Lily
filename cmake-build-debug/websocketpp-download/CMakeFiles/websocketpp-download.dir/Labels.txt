@@ -1,0 +1,14 @@
+# Target labels
+ websocketpp-download
+# Source files and their labels
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/CMakeFiles/websocketpp-download
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/CMakeFiles/websocketpp-download.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/CMakeFiles/websocketpp-download-complete.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test.rule
+/home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update.rule

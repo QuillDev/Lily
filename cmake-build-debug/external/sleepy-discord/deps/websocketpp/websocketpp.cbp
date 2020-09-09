@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="websocketpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\sleepy-discord\;CMake Files\external\sleepy-discord\buildtools\;CMake Files\external\sleepy-discord\buildtools\cmake\;CMake Files\external\sleepy-discord\include\;CMake Files\external\sleepy-discord\include\sleepy_discord\;CMake Files\external\sleepy-discord\deps\;CMake Files\external\sleepy-discord\deps\cpr\;CMake Files\external\sleepy-discord\deps\cpr\opt\;CMake Files\external\sleepy-discord\deps\cpr\cpr\;CMake Files\external\sleepy-discord\deps\websocketpp\;CMake Files\external\sleepy-discord\deps\websocketpp\cmake\;CMake Files\external\sleepy-discord\deps\websocketpp\websocketpp\;CMake Files\external\sleepy-discord\sleepy_discord\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\json-src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/quill/CLionProjects/Lily++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/buildtools/cmake/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\buildtools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/buildtools/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\buildtools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/include/sleepy_discord/version.h.in">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\include\sleepy_discord\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\cpr\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/cpr/opt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\cpr\opt\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/cpr/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\cpr\cpr\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/websocketpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\websocketpp\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/websocketpp/websocketpp-config.cmake.in">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\websocketpp\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/websocketpp/cmake/CMakeHelpers.cmake">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\websocketpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/websocketpp/websocketpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\deps\websocketpp\websocketpp\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/external/sleepy-discord/sleepy_discord/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\sleepy-discord\sleepy_discord\"/>
+		</Unit>
+		<Unit filename="/home/quill/CLionProjects/Lily++/cmake-build-debug/_deps/json-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
