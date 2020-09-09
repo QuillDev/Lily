@@ -1,3 +1,0 @@
-/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/CMakeFiles/rebuild_cache.dir
-/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/CMakeFiles/edit_cache.dir
-/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/CMakeFiles/asio-download.dir
