@@ -1,11 +1,17 @@
 //Include websocket stuff from sleepy-discord
 #include "sleepy_discord/websocketpp_websocket.h"
 
+//include nlohmann_json
+#include "nlohmann/json.hpp"
 
 //get strings
 #include <string>
 
-class Bot : SleepyDiscord::DiscordClient {
+//set json
+using json = nlohmann::json;
+
+//Create the bot client
+class Bot : public SleepyDiscord::DiscordClient {
 public:
     using SleepyDiscord::DiscordClient::DiscordClient;
 
@@ -28,4 +34,16 @@ public:
 
 int main(){
 
+    //Create an inputstream for options.json
+    std::ifstream options("options.json");
+
+    //Create a json object called optionsjson
+    json optionsJSON;
+
+    //save the output of options to the optionsjson
+    options >> optionsJSON;
+
+    //Create a client using the token found in optionsJSON
+    Bot client(optionsJSON["token"], 2);
+    client.run();
 }
