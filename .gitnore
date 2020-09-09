@@ -1,0 +1,4 @@
+       .gitnore
+        .idea/
+        cmake-build-debug/
+        options.json
