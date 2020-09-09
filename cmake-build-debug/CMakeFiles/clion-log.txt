@@ -1,0 +1,76 @@
+/snap/clion/124/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/quill/CLionProjects/Lily++
+-- Downloading/updating cpr
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quill/CLionProjects/Lily++/cmake-build-debug/cpr-download
+Scanning dependencies of target cpr-download
+[ 11%] Skipping update step for 'cpr-download'
+[ 22%] No configure step for 'cpr-download'
+[ 33%] No build step for 'cpr-download'
+[ 44%] No install step for 'cpr-download'
+[ 55%] No test step for 'cpr-download'
+[ 66%] Completed 'cpr-download'
+[100%] Built target cpr-download
+-- Downloading/updating asio
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download
+Scanning dependencies of target asio-download
+[ 11%] Skipping update step for 'asio-download'
+[ 22%] No configure step for 'asio-download'
+[ 33%] No build step for 'asio-download'
+[ 44%] No install step for 'asio-download'
+[ 55%] No test step for 'asio-download'
+[ 66%] Completed 'asio-download'
+[100%] Built target asio-download
+-- Downloading/updating websocketpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quill/CLionProjects/Lily++/cmake-build-debug/websocketpp-download
+Scanning dependencies of target websocketpp-download
+[ 11%] Skipping update step for 'websocketpp-download'
+[ 22%] No configure step for 'websocketpp-download'
+[ 33%] No build step for 'websocketpp-download'
+[ 44%] No install step for 'websocketpp-download'
+[ 55%] No test step for 'websocketpp-download'
+[ 66%] Completed 'websocketpp-download'
+[100%] Built target websocketpp-download
+-- C++ Requests CMake Options
+-- =======================================================
+--   USE_SYSTEM_CURL: ON
+--   BUILD_CPR_TESTS: OFF
+--   GENERATE_COVERAGE: OFF
+--   CPR_CURL_NOSIGNAL: OFF
+--   USE_SYSTEM_GTEST: OFF
+--   CMAKE_USE_OPENSSL: OFF
+-- =======================================================
+-- Set CURL_FOUND to TRUE.
+-- Set CURL_LIBRARIES to /usr/lib/x86_64-linux-gnu/libcurl.so.
+-- Set CURL_INCLUDE_DIRS to /usr/include/x86_64-linux-gnu.
+-- Using CURL_INCLUDE_DIRS: /usr/include/x86_64-linux-gnu.
+-- Using CURL_LIBRARIES: /usr/lib/x86_64-linux-gnu/libcurl.so.
+** websocketpp
+
+=========== Used Build Configuration =============
+
+-- ENABLE_CPP11        = ON
+-- BUILD_EXAMPLES      = OFF
+-- BUILD_TESTS         = OFF
+
+-- WEBSOCKETPP_ROOT    = /home/quill/CLionProjects/Lily++/external/sleepy-discord/deps/websocketpp
+-- WEBSOCKETPP_BIN     = /home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp/bin
+-- WEBSOCKETPP_LIB     = /home/quill/CLionProjects/Lily++/cmake-build-debug/external/sleepy-discord/deps/websocketpp/lib
+-- Install prefix      = /usr/local
+
+-- WEBSOCKETPP_BOOST_LIBS        = 
+-- WEBSOCKETPP_PLATFORM_LIBS     = 
+-- WEBSOCKETPP_PLATFORM_TLS_LIBS = 
+
+-- OPENSSL_FOUND        = 
+-- OPENSSL_INCLUDE_DIR     = /usr/include
+-- OPENSSL_LIBRARIES = 
+-- OPENSSL_VERSION = 
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quill/CLionProjects/Lily++/cmake-build-debug
