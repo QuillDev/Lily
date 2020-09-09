@@ -1,0 +1,1317 @@
+The system is: Linux - 5.4.0-47-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5228/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5228.dir/build.make CMakeFiles/cmTC_a5228.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5228.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a5228.dir/testCCompiler.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a5228
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5228.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a5228.dir/testCCompiler.c.o  -o cmTC_a5228 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7702e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7702e.dir/build.make CMakeFiles/cmTC_7702e.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2pQ66S.s
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o /tmp/cc2pQ66S.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_7702e
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7702e.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o  -o cmTC_7702e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7702e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZavgZk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7702e /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7702e' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_7702e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7702e.dir/build.make CMakeFiles/cmTC_7702e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2pQ66S.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o /tmp/cc2pQ66S.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_7702e]
+  ignore line: [/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7702e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o  -o cmTC_7702e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7702e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZavgZk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7702e /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZavgZk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7702e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_7702e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eae20/fast && /usr/bin/make  -f CMakeFiles/cmTC_eae20.dir/build.make CMakeFiles/cmTC_eae20.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eae20.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_eae20.dir/testCXXCompiler.cxx.o -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_eae20
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae20.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_eae20.dir/testCXXCompiler.cxx.o  -o cmTC_eae20 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e93e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e93e.dir/build.make CMakeFiles/cmTC_4e93e.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIqKCeC.s
+GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIqKCeC.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_4e93e
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e93e.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4e93e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e93e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbTWts2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4e93e /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e93e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_4e93e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e93e.dir/build.make CMakeFiles/cmTC_4e93e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIqKCeC.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIqKCeC.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_4e93e]
+  ignore line: [/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e93e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4e93e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e93e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbTWts2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4e93e /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbTWts2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4e93e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_4e93e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test OPT-pedantic succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b180/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b180.dir/build.make CMakeFiles/cmTC_4b180.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b180.dir/src.c.o
+/usr/bin/cc   -DOPT-pedantic   -pedantic -o CMakeFiles/cmTC_4b180.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4b180
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b180.dir/link.txt --verbose=1
+/usr/bin/cc  -DOPT-pedantic    -rdynamic CMakeFiles/cmTC_4b180.dir/src.c.o  -o cmTC_4b180 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wall succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5e31/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5e31.dir/build.make CMakeFiles/cmTC_a5e31.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5e31.dir/src.c.o
+/usr/bin/cc   -pedantic -DOPT-Wall   -Wall -o CMakeFiles/cmTC_a5e31.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_a5e31
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5e31.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -DOPT-Wall    -rdynamic CMakeFiles/cmTC_a5e31.dir/src.c.o  -o cmTC_a5e31 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-W succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_421f0/fast && /usr/bin/make  -f CMakeFiles/cmTC_421f0.dir/build.make CMakeFiles/cmTC_421f0.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_421f0.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -DOPT-W   -W -o CMakeFiles/cmTC_421f0.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_421f0
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_421f0.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -DOPT-W    -rdynamic CMakeFiles/cmTC_421f0.dir/src.c.o  -o cmTC_421f0 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wpointer-arith succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fca64/fast && /usr/bin/make  -f CMakeFiles/cmTC_fca64.dir/build.make CMakeFiles/cmTC_fca64.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fca64.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -DOPT-Wpointer-arith   -Wpointer-arith -o CMakeFiles/cmTC_fca64.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_fca64
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca64.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -DOPT-Wpointer-arith    -rdynamic CMakeFiles/cmTC_fca64.dir/src.c.o  -o cmTC_fca64 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wwrite-strings succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c2aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_3c2aa.dir/build.make CMakeFiles/cmTC_3c2aa.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c2aa.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -DOPT-Wwrite-strings   -Wwrite-strings -o CMakeFiles/cmTC_3c2aa.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_3c2aa
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c2aa.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -DOPT-Wwrite-strings    -rdynamic CMakeFiles/cmTC_3c2aa.dir/src.c.o  -o cmTC_3c2aa 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wunused succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b743c/fast && /usr/bin/make  -f CMakeFiles/cmTC_b743c.dir/build.make CMakeFiles/cmTC_b743c.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b743c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -DOPT-Wunused   -Wunused -o CMakeFiles/cmTC_b743c.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b743c
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b743c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -DOPT-Wunused    -rdynamic CMakeFiles/cmTC_b743c.dir/src.c.o  -o cmTC_b743c 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wshadow succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64621/fast && /usr/bin/make  -f CMakeFiles/cmTC_64621.dir/build.make CMakeFiles/cmTC_64621.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64621.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -DOPT-Wshadow   -Wshadow -o CMakeFiles/cmTC_64621.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_64621
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64621.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -DOPT-Wshadow    -rdynamic CMakeFiles/cmTC_64621.dir/src.c.o  -o cmTC_64621 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Winline succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7622/fast && /usr/bin/make  -f CMakeFiles/cmTC_c7622.dir/build.make CMakeFiles/cmTC_c7622.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7622.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -DOPT-Winline   -Winline -o CMakeFiles/cmTC_c7622.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c7622
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7622.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -DOPT-Winline    -rdynamic CMakeFiles/cmTC_c7622.dir/src.c.o  -o cmTC_c7622 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wnested-externs succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09e3e/fast && /usr/bin/make  -f CMakeFiles/cmTC_09e3e.dir/build.make CMakeFiles/cmTC_09e3e.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09e3e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -DOPT-Wnested-externs   -Wnested-externs -o CMakeFiles/cmTC_09e3e.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_09e3e
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09e3e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -DOPT-Wnested-externs    -rdynamic CMakeFiles/cmTC_09e3e.dir/src.c.o  -o cmTC_09e3e 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wmissing-declarations succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_493fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_493fc.dir/build.make CMakeFiles/cmTC_493fc.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_493fc.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -DOPT-Wmissing-declarations   -Wmissing-declarations -o CMakeFiles/cmTC_493fc.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_493fc
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_493fc.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -DOPT-Wmissing-declarations    -rdynamic CMakeFiles/cmTC_493fc.dir/src.c.o  -o cmTC_493fc 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wmissing-prototypes succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19fbe/fast && /usr/bin/make  -f CMakeFiles/cmTC_19fbe.dir/build.make CMakeFiles/cmTC_19fbe.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19fbe.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -DOPT-Wmissing-prototypes   -Wmissing-prototypes -o CMakeFiles/cmTC_19fbe.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_19fbe
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19fbe.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -DOPT-Wmissing-prototypes    -rdynamic CMakeFiles/cmTC_19fbe.dir/src.c.o  -o cmTC_19fbe 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-long-long succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17e66/fast && /usr/bin/make  -f CMakeFiles/cmTC_17e66.dir/build.make CMakeFiles/cmTC_17e66.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17e66.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -DOPT-Wno-long-long   -Wno-long-long -o CMakeFiles/cmTC_17e66.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_17e66
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e66.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -DOPT-Wno-long-long    -rdynamic CMakeFiles/cmTC_17e66.dir/src.c.o  -o cmTC_17e66 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wfloat-equal succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc609/fast && /usr/bin/make  -f CMakeFiles/cmTC_cc609.dir/build.make CMakeFiles/cmTC_cc609.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc609.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -DOPT-Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_cc609.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_cc609
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc609.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -DOPT-Wfloat-equal    -rdynamic CMakeFiles/cmTC_cc609.dir/src.c.o  -o cmTC_cc609 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-multichar succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16ce1/fast && /usr/bin/make  -f CMakeFiles/cmTC_16ce1.dir/build.make CMakeFiles/cmTC_16ce1.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16ce1.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -DOPT-Wno-multichar   -Wno-multichar -o CMakeFiles/cmTC_16ce1.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_16ce1
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16ce1.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -DOPT-Wno-multichar    -rdynamic CMakeFiles/cmTC_16ce1.dir/src.c.o  -o cmTC_16ce1 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wsign-compare succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88383/fast && /usr/bin/make  -f CMakeFiles/cmTC_88383.dir/build.make CMakeFiles/cmTC_88383.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88383.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -DOPT-Wsign-compare   -Wsign-compare -o CMakeFiles/cmTC_88383.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_88383
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88383.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -DOPT-Wsign-compare    -rdynamic CMakeFiles/cmTC_88383.dir/src.c.o  -o cmTC_88383 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wundef succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67c0e/fast && /usr/bin/make  -f CMakeFiles/cmTC_67c0e.dir/build.make CMakeFiles/cmTC_67c0e.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67c0e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -DOPT-Wundef   -Wundef -o CMakeFiles/cmTC_67c0e.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_67c0e
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67c0e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -DOPT-Wundef    -rdynamic CMakeFiles/cmTC_67c0e.dir/src.c.o  -o cmTC_67c0e 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-format-nonliteral succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51f07/fast && /usr/bin/make  -f CMakeFiles/cmTC_51f07.dir/build.make CMakeFiles/cmTC_51f07.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51f07.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -DOPT-Wno-format-nonliteral   -Wno-format-nonliteral -o CMakeFiles/cmTC_51f07.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_51f07
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51f07.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -DOPT-Wno-format-nonliteral    -rdynamic CMakeFiles/cmTC_51f07.dir/src.c.o  -o cmTC_51f07 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wendif-labels succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9de9/fast && /usr/bin/make  -f CMakeFiles/cmTC_f9de9.dir/build.make CMakeFiles/cmTC_f9de9.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9de9.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -DOPT-Wendif-labels   -Wendif-labels -o CMakeFiles/cmTC_f9de9.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_f9de9
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9de9.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -DOPT-Wendif-labels    -rdynamic CMakeFiles/cmTC_f9de9.dir/src.c.o  -o cmTC_f9de9 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-prototypes succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26b87/fast && /usr/bin/make  -f CMakeFiles/cmTC_26b87.dir/build.make CMakeFiles/cmTC_26b87.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26b87.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -DOPT-Wstrict-prototypes   -Wstrict-prototypes -o CMakeFiles/cmTC_26b87.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_26b87
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26b87.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -DOPT-Wstrict-prototypes    -rdynamic CMakeFiles/cmTC_26b87.dir/src.c.o  -o cmTC_26b87 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wdeclaration-after-statement succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aff96/fast && /usr/bin/make  -f CMakeFiles/cmTC_aff96.dir/build.make CMakeFiles/cmTC_aff96.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aff96.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -DOPT-Wdeclaration-after-statement   -Wdeclaration-after-statement -o CMakeFiles/cmTC_aff96.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_aff96
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aff96.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -DOPT-Wdeclaration-after-statement    -rdynamic CMakeFiles/cmTC_aff96.dir/src.c.o  -o cmTC_aff96 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2006/fast && /usr/bin/make  -f CMakeFiles/cmTC_d2006.dir/build.make CMakeFiles/cmTC_d2006.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2006.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_d2006.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d2006
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2006.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_d2006.dir/src.c.o  -o cmTC_d2006 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wcast-align succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a386/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a386.dir/build.make CMakeFiles/cmTC_9a386.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a386.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -DOPT-Wcast-align   -Wcast-align -o CMakeFiles/cmTC_9a386.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9a386
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a386.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -DOPT-Wcast-align    -rdynamic CMakeFiles/cmTC_9a386.dir/src.c.o  -o cmTC_9a386 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wtype-limits succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c9d4/fast && /usr/bin/make  -f CMakeFiles/cmTC_5c9d4.dir/build.make CMakeFiles/cmTC_5c9d4.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c9d4.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -DOPT-Wtype-limits   -Wtype-limits -o CMakeFiles/cmTC_5c9d4.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_5c9d4
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c9d4.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -DOPT-Wtype-limits    -rdynamic CMakeFiles/cmTC_5c9d4.dir/src.c.o  -o cmTC_5c9d4 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wold-style-declaration succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17bad/fast && /usr/bin/make  -f CMakeFiles/cmTC_17bad.dir/build.make CMakeFiles/cmTC_17bad.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17bad.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -DOPT-Wold-style-declaration   -Wold-style-declaration -o CMakeFiles/cmTC_17bad.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_17bad
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17bad.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -DOPT-Wold-style-declaration    -rdynamic CMakeFiles/cmTC_17bad.dir/src.c.o  -o cmTC_17bad 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wmissing-parameter-type succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9345/fast && /usr/bin/make  -f CMakeFiles/cmTC_e9345.dir/build.make CMakeFiles/cmTC_e9345.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9345.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -DOPT-Wmissing-parameter-type   -Wmissing-parameter-type -o CMakeFiles/cmTC_e9345.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_e9345
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9345.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -DOPT-Wmissing-parameter-type    -rdynamic CMakeFiles/cmTC_e9345.dir/src.c.o  -o cmTC_e9345 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wempty-body succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de79b/fast && /usr/bin/make  -f CMakeFiles/cmTC_de79b.dir/build.make CMakeFiles/cmTC_de79b.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de79b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -DOPT-Wempty-body   -Wempty-body -o CMakeFiles/cmTC_de79b.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_de79b
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de79b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -DOPT-Wempty-body    -rdynamic CMakeFiles/cmTC_de79b.dir/src.c.o  -o cmTC_de79b 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wclobbered succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0d2a/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0d2a.dir/build.make CMakeFiles/cmTC_f0d2a.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0d2a.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -DOPT-Wclobbered   -Wclobbered -o CMakeFiles/cmTC_f0d2a.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_f0d2a
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0d2a.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -DOPT-Wclobbered    -rdynamic CMakeFiles/cmTC_f0d2a.dir/src.c.o  -o cmTC_f0d2a 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wignored-qualifiers succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_768e2/fast && /usr/bin/make  -f CMakeFiles/cmTC_768e2.dir/build.make CMakeFiles/cmTC_768e2.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_768e2.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -DOPT-Wignored-qualifiers   -Wignored-qualifiers -o CMakeFiles/cmTC_768e2.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_768e2
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_768e2.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -DOPT-Wignored-qualifiers    -rdynamic CMakeFiles/cmTC_768e2.dir/src.c.o  -o cmTC_768e2 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wconversion succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae14e/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae14e.dir/build.make CMakeFiles/cmTC_ae14e.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae14e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -DOPT-Wconversion   -Wconversion -o CMakeFiles/cmTC_ae14e.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ae14e
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae14e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -DOPT-Wconversion    -rdynamic CMakeFiles/cmTC_ae14e.dir/src.c.o  -o cmTC_ae14e 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-sign-conversion succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e6fd/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e6fd.dir/build.make CMakeFiles/cmTC_4e6fd.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e6fd.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -DOPT-Wno-sign-conversion   -Wno-sign-conversion -o CMakeFiles/cmTC_4e6fd.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4e6fd
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e6fd.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -DOPT-Wno-sign-conversion    -rdynamic CMakeFiles/cmTC_4e6fd.dir/src.c.o  -o cmTC_4e6fd 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wvla succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf8c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf8c4.dir/build.make CMakeFiles/cmTC_cf8c4.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf8c4.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -DOPT-Wvla   -Wvla -o CMakeFiles/cmTC_cf8c4.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_cf8c4
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf8c4.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -DOPT-Wvla    -rdynamic CMakeFiles/cmTC_cf8c4.dir/src.c.o  -o cmTC_cf8c4 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wdouble-promotion succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42167/fast && /usr/bin/make  -f CMakeFiles/cmTC_42167.dir/build.make CMakeFiles/cmTC_42167.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42167.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -DOPT-Wdouble-promotion   -Wdouble-promotion -o CMakeFiles/cmTC_42167.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_42167
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42167.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -DOPT-Wdouble-promotion    -rdynamic CMakeFiles/cmTC_42167.dir/src.c.o  -o cmTC_42167 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-system-headers succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98be8/fast && /usr/bin/make  -f CMakeFiles/cmTC_98be8.dir/build.make CMakeFiles/cmTC_98be8.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98be8.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -DOPT-Wno-system-headers   -Wno-system-headers -o CMakeFiles/cmTC_98be8.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_98be8
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98be8.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -DOPT-Wno-system-headers    -rdynamic CMakeFiles/cmTC_98be8.dir/src.c.o  -o cmTC_98be8 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_ADDR succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ce36/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ce36.dir/build.make CMakeFiles/cmTC_3ce36.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ce36.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DHAVE_SOCKADDR_IN6_SIN6_ADDR   -o CMakeFiles/cmTC_3ce36.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 | int main()
+      |     ^~~~
+Linking C executable cmTC_3ce36
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce36.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DHAVE_SOCKADDR_IN6_SIN6_ADDR    -rdynamic CMakeFiles/cmTC_3ce36.dir/src.c.o  -o cmTC_3ce36 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_addr);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07d69/fast && /usr/bin/make  -f CMakeFiles/cmTC_07d69.dir/build.make CMakeFiles/cmTC_07d69.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07d69.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID   -o CMakeFiles/cmTC_07d69.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 | int main()
+      |     ^~~~
+Linking C executable cmTC_07d69
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d69.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID    -rdynamic CMakeFiles/cmTC_07d69.dir/src.c.o  -o cmTC_07d69 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e246b/fast && /usr/bin/make  -f CMakeFiles/cmTC_e246b.dir/build.make CMakeFiles/cmTC_e246b.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e246b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers    -o CMakeFiles/cmTC_e246b.dir/CheckIncludeFile.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e246b
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e246b.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers     -rdynamic CMakeFiles/cmTC_e246b.dir/CheckIncludeFile.c.o  -o cmTC_e246b 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16db7/fast && /usr/bin/make  -f CMakeFiles/cmTC_16db7.dir/build.make CMakeFiles/cmTC_16db7.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16db7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_16db7.dir/CheckFunctionExists.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16db7
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16db7.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_16db7.dir/CheckFunctionExists.c.o  -o cmTC_16db7  -lpthread 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl;-lpthread passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6667/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6667.dir/build.make CMakeFiles/cmTC_c6667.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6667.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_c6667.dir/CheckFunctionExists.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6667
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6667.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_c6667.dir/CheckFunctionExists.c.o  -o cmTC_c6667  -ldl -lpthread 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists in the c passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9807c/fast && /usr/bin/make  -f CMakeFiles/cmTC_9807c.dir/build.make CMakeFiles/cmTC_9807c.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9807c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_9807c.dir/CheckFunctionExists.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9807c
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9807c.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_9807c.dir/CheckFunctionExists.c.o  -o cmTC_9807c  -lc 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47eea/fast && /usr/bin/make  -f CMakeFiles/cmTC_47eea.dir/build.make CMakeFiles/cmTC_47eea.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47eea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_47eea.dir/CheckFunctionExists.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47eea
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47eea.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=gethostname    -rdynamic CMakeFiles/cmTC_47eea.dir/CheckFunctionExists.c.o  -o cmTC_47eea 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl;-lpthread passed with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82ae6/fast && /usr/bin/make  -f CMakeFiles/cmTC_82ae6.dir/build.make CMakeFiles/cmTC_82ae6.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82ae6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_82ae6.dir/CheckFunctionExists.c.o   -c /snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82ae6
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82ae6.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_82ae6.dir/CheckFunctionExists.c.o  -o cmTC_82ae6  -ldl -lpthread 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test USE_UNIX_SOCKETS succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88d62/fast && /usr/bin/make  -f CMakeFiles/cmTC_88d62.dir/build.make CMakeFiles/cmTC_88d62.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88d62.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DUSE_UNIX_SOCKETS   -o CMakeFiles/cmTC_88d62.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 | int main()
+      |     ^~~~
+Linking C executable cmTC_88d62
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d62.dir/link.txt --verbose=1
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -DUSE_UNIX_SOCKETS    -rdynamic CMakeFiles/cmTC_88d62.dir/src.c.o  -o cmTC_88d62 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/un.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_un *)0)->sun_path);
+  return 0;
+}
+
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9e27c/fast && /usr/bin/make  -f CMakeFiles/cmTC_9e27c.dir/build.make CMakeFiles/cmTC_9e27c.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e27c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_9e27c.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9e27c
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e27c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_9e27c.dir/src.c.o  -o cmTC_9e27c 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b72b/fast && /usr/bin/make  -f CMakeFiles/cmTC_2b72b.dir/build.make CMakeFiles/cmTC_2b72b.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b72b.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_2b72b.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_2b72b
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b72b.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_2b72b.dir/src.c.o  -o cmTC_2b72b 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70d3c/fast && /usr/bin/make  -f CMakeFiles/cmTC_70d3c.dir/build.make CMakeFiles/cmTC_70d3c.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70d3c.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_70d3c.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_70d3c
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70d3c.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_70d3c.dir/src.c.o  -o cmTC_70d3c 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f859/fast && make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7f859.dir/build.make CMakeFiles/cmTC_7f859.dir/build
+make[2]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f859.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_7f859.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_7f859
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f859.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_7f859.dir/src.c.o  -o cmTC_7f859 
+make[2]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74693/fast && /usr/bin/make  -f CMakeFiles/cmTC_74693.dir/build.make CMakeFiles/cmTC_74693.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74693.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_74693.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_74693
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74693.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_74693.dir/src.c.o  -o cmTC_74693 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1303d/fast && make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1303d.dir/build.make CMakeFiles/cmTC_1303d.dir/build
+make[2]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1303d.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_1303d.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_1303d
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1303d.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_1303d.dir/src.c.o  -o cmTC_1303d 
+make[2]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a6fad/fast && /usr/bin/make  -f CMakeFiles/cmTC_a6fad.dir/build.make CMakeFiles/cmTC_a6fad.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6fad.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_a6fad.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_a6fad
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6fad.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_a6fad.dir/src.c.o  -o cmTC_a6fad 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c0d2/fast && make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5c0d2.dir/build.make CMakeFiles/cmTC_5c0d2.dir/build
+make[2]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c0d2.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_5c0d2.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_5c0d2
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c0d2.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_5c0d2.dir/src.c.o  -o cmTC_5c0d2 
+make[2]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ebd9e/fast && /usr/bin/make  -f CMakeFiles/cmTC_ebd9e.dir/build.make CMakeFiles/cmTC_ebd9e.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebd9e.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_ebd9e.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ebd9e
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebd9e.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_ebd9e.dir/src.c.o  -o cmTC_ebd9e 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ecd56/fast && /usr/bin/make  -f CMakeFiles/cmTC_ecd56.dir/build.make CMakeFiles/cmTC_ecd56.dir/build
+make[1]: Entering directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecd56.dir/src.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles/cmTC_ecd56.dir/src.c.o   -c /home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ecd56
+/snap/clion/124/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd56.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -rdynamic CMakeFiles/cmTC_ecd56.dir/src.c.o  -o cmTC_ecd56 
+make[1]: Leaving directory '/home/quill/CLionProjects/Lily++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

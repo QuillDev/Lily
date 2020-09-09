@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/CMakeFiles/asio-download"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/CMakeFiles/asio-download.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/CMakeFiles/asio-download-complete.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-install.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-mkdir.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-download.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-patch.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-configure.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-build.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-test.rule"
+		},
+		{
+			"file" : "/home/quill/CLionProjects/Lily++/cmake-build-debug/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asio-download"
+		],
+		"name" : "asio-download"
+	}
+}
