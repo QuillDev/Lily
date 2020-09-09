@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Lily__.dir/main.cpp.o  -o Lily__ 

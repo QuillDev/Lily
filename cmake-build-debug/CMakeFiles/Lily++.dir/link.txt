@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Lily++.dir/Lily.cpp.o  -o Lily++  external/sleepy-discord/sleepy_discord/libsleepy-discord-d.a lib/libcpr-d.a /usr/lib/x86_64-linux-gnu/libcurl.so -lssl -lcrypto -pthread 
