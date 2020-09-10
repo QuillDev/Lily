@@ -10,6 +10,9 @@
 //set json
 using json = nlohmann::json;
 
+//Create token variable
+std::string prefix;
+
 //Create the bot client
 class Bot : public SleepyDiscord::DiscordClient {
 public:
@@ -19,7 +22,7 @@ public:
 
         //checks on message to see if it's worth looking at
         if(message.author.bot) return;
-        if(!message.startsWith(">")) return; //TODO Load prefix from file
+        if(!message.startsWith(prefix)) return;
 
         //get the id of the channel, type is SleepyDiscord::Snowflake<Channel>
         auto channelID = message.channelID;
@@ -42,6 +45,9 @@ int main(){
 
     //save the output of options to the optionsjson
     options >> optionsJSON;
+
+    //set the prefix to the loaded one from optionsJSON
+    prefix = optionsJSON["prefix"];
 
     //Create a client using the token found in optionsJSON
     Bot client(optionsJSON["token"], 2);
