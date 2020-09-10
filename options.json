@@ -1,3 +1,4 @@
 {
-  "token": "DISCORD_TOKEN_GOES_HERE"
+  "token": "DISCORD_TOKEN_GOES_HERE",
+  "prefix": ">"
 }
